@@ -1,0 +1,393 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    --titulos:'Fraunces', serif;
+    --parrafos: 'Barlow', sans-serif;
+    --titulos--texto: hsl(212, 27%, 19%);
+    --parrafos--cliente--texto: hsl(213, 9%, 39%);
+    --parrafos--general--texto: hsl(232, 10%, 55%);
+    --letra--gris--clara: hsl(210, 4%, 67%);
+}
+
+header{
+    background-image: url(images/mobile/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 80vh;
+    width: 100vw;
+}
+
+
+/* CONTAINER FLUID */
+
+.contendor{
+    padding: 0;
+}
+
+
+/* HEADER */
+
+.navbar .container-fluid{
+    margin-top: .8rem;
+    padding: 0 1.5rem;
+}
+
+.navbar-brand{
+    color: white;
+    font-family: var(--parrafos);
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.navbar-toggler{
+    padding: 0;
+}
+
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 0;
+}
+
+.navbar-toggler ion-icon{
+    height: 3rem;
+    width: 2.8rem;
+    color: white;
+}
+
+.navbar-collapse{
+    margin: 1rem 0 0 0;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: var(--parrafos);
+    color: var(--parrafos--general--texto);
+    margin: .7rem 0 .7rem 0;
+}
+
+.navbar-nav button{
+    background: hsl(51, 100%, 49%);
+    border: none;
+    height: 3.5rem;
+    width: 9.5rem;
+    margin: 1rem 0 1rem 0;
+    border-radius:2rem;
+}
+
+.navbar-nav button > span{
+    color: var(--titulos--texto);
+    font-weight: 700;
+    font-family: var(--titulos);
+}
+
+.elH1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:30rem;
+}
+
+.elH1 h1{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: var(--titulos);
+    letter-spacing: .5rem;
+}
+
+/*   MAIN   */
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.transform{
+    display: flex;
+    flex-direction: column;
+}
+
+.transform div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 4rem 2rem;
+}
+
+.transform div > h3{
+    font-family: var(--titulos);
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: var(--titulos--texto);
+    margin-bottom: 0;
+}
+
+.transform div > p{
+    color: var(--parrafos--general--texto);
+    font-family: var(--parrafos);
+    margin: 2.5rem 0;
+}
+
+.transform div > button{
+    border: none;
+    width: 8.5rem;
+    background: none;
+    color: var(--titulos--texto);
+    font-family: var(--titulos);
+    font-weight: 900;
+}
+.transform div > button > span{
+    border: none;
+    border-bottom: 5px solid hsla(51, 100%, 49%, 0.329);
+}
+
+.stand{
+    display: flex;
+    flex-direction: column;
+}
+
+.stand div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 4rem 2rem;
+}
+
+.stand div > h3{
+    font-family: var(--titulos);
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: var(--titulos--texto);
+    margin-bottom: 0;
+}
+
+.stand div > p{
+    color: var(--parrafos--general--texto);
+    font-family: var(--parrafos);
+    margin: 2.5rem 0;
+    font-size: 1.2rem;
+}
+
+.stand div > button{
+    border: none;
+    width: 8.5rem;
+    background: none;
+    color: var(--titulos--texto);
+    font-family: var(--titulos);
+    font-weight: 900;
+}
+.stand div > button > span{
+    border: none;
+    border-bottom: 5px solid hsla(7, 99%, 70%, 0.384);
+}
+
+
+.stand{
+    display: flex;
+    flex-direction: column;
+}
+
+.stand div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 4rem 2rem;
+}
+
+.stand div > h3{
+    font-family: var(--titulos);
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: var(--titulos--texto);
+    margin-bottom: 0;
+}
+
+.stand div > p{
+    color: var(--parrafos--general--texto);
+    font-family: var(--parrafos);
+    margin: 2.5rem 0;
+    font-size: 1.2rem;
+}
+
+.cherries{
+    display: flex;
+    flex-direction: column;
+}
+
+.cherries div{
+    position: absolute;
+    margin-top: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+.cherries div > h3{
+    font-family: var(--titulos);
+    color: hsl(167, 40%, 24%);
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 2.1rem;
+}
+
+.cherries div > p{
+    font-family: var(--parrafos);
+    color:hsl(167, 40%, 24%);
+    font-size: 1rem;
+}
+
+
+.orange{
+    display: flex;
+    flex-direction: column;
+}
+
+.orange div{
+    position: absolute;
+    margin-top: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+
+.orange div > h3{
+    font-family: var(--titulos);
+    color: hsl(198, 62%, 26%);
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 2.1rem;
+}
+
+.orange div > p{
+    font-family: var(--parrafos);
+    color:hsl(198, 62%, 26%);
+    font-size: 1rem;
+}
+
+.coments{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.coments h5{
+    font-family: var(--titulos);
+    color: var(--letra--gris--clara);
+    font-weight: 900;
+    margin: 4rem 0 0 0;
+    letter-spacing: .2rem;
+    font-size: 1.2rem;
+}
+
+.coment{
+    padding: 0 2rem;
+    margin-bottom: 4rem;
+}
+
+.coment img{
+    border-radius: 50%;
+    margin: 4rem 0 0 0;
+    width: 5rem;
+    height: 5rem;
+}
+
+.coment p{
+    font-family: var(--parrafos);
+    color: var(--parrafos--cliente--texto);
+    margin: 2rem 0;
+}
+
+.coment h6{
+    font-family: var(--titulos);
+    color: var(--titulos--texto);
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.coment span{
+    font-family: var(--parrafos);
+    color: var(--letra--gris--clara);
+}
+
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagenes img{
+    width: 50%;
+}
+
+/*   FOOTER   */
+
+footer{
+    background: hsl(168, 66%, 66%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    padding: 4rem 2rem;
+}
+
+footer h2{
+    font-family: var(--parrafos);
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: hsl(167, 40%, 24%);
+}
+
+.botones{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.botones > button{
+    border: none;
+    background: none;
+    color: hsl(168, 34%, 41%);
+    font-family: var(--parrafos);
+    font-weight: 700;
+}
+
+.enlaces{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.enlaces a{
+    margin: 0 1rem;
+    color: hsl(167, 40%, 24%);
+    width: 2rem;
+    height: 2rem;
+}
+
+.enlaces ion-icon{
+    width: 2rem;
+    height: 2rem;
+}
