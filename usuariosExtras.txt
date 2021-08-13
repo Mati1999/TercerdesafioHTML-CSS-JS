@@ -1,0 +1,14 @@
+{
+    {
+    "imagen":"images/image-thomas.jpg",
+    "comentario": "Sunnyside's enthusiasm coupled with their interest in our brand's success made ir a satisfying and enjoyable experience.",
+    "nombre": "Thomas S.",
+    "cargo": "Chief Operating Officer"
+    },
+    {
+    "imagen":"images/image-jennie.jpg",
+    "comentario": "Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!",
+    "nombre": "Jennie F.",
+    "cargo": "Business Owner"
+    }
+}
